@@ -3,77 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Vikash Tiwari - Web Developer specializing in PHP, MySQL, CodeIgniter, HTML, CSS, JavaScript, jQuery, and Mobile App development.">
-    <title>Vikash Tiwari | Web Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Portfolio of Vikash Tiwari - Experienced Web Developer specializing in PHP, MySQL, CodeIgniter, HTML, CSS, JavaScript, jQuery, and Mobile App development.">
+    <meta name="author" content="Vikash Tiwari">
+    <title>Vikash Tiwari | Professional Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
+            background-color: #f4f4f9;
             color: #333;
         }
         header {
-            background: #0073e6;
+            background: linear-gradient(135deg, #0073e6, #005bb5);
             color: #fff;
-            padding: 20px 0;
+            padding: 30px 0;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 2.8rem;
+            font-weight: 700;
         }
         header p {
             font-size: 1.2rem;
+            margin-top: 10px;
         }
         nav ul {
-            list-style: none;
+            display: flex;
+            justify-content: center;
             padding: 0;
             margin: 0;
-            text-align: center;
+            list-style: none;
             background: #005bb5;
         }
         nav ul li {
-            display: inline;
-            margin: 0 10px;
+            margin: 0 15px;
         }
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            font-weight: 500;
             font-size: 1.1rem;
+            padding: 10px 15px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #004399;
+            border-radius: 5px;
         }
         section {
-            padding: 20px;
+            padding: 40px 20px;
             margin: 20px auto;
-            max-width: 800px;
-            background: #f9f9f9;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
+            max-width: 1000px;
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         section h2 {
             margin-top: 0;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 10px;
         }
         .skills ul {
             list-style: none;
             padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
         }
         .skills ul li {
             background: #e6e6e6;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 3px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 500;
+            flex: 1 1 calc(33.333% - 10px);
+            text-align: center;
         }
         footer {
             text-align: center;
             background: #0073e6;
             color: #fff;
-            padding: 10px 0;
+            padding: 15px 0;
             margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        .contact {
+            font-size: 1rem;
         }
         .contact a {
             color: #0073e6;
             text-decoration: none;
+            font-weight: 500;
         }
         .contact a:hover {
             text-decoration: underline;
@@ -84,7 +112,7 @@
 
 <header>
     <h1>Vikash Tiwari</h1>
-    <p>Web Developer | PHP, MySQL, CodeIgniter, HTML, CSS, JavaScript</p>
+    <p>Professional Web Developer | PHP | MySQL | CodeIgniter | HTML | CSS | JavaScript | Mobile Apps</p>
 </header>
 
 <nav>
@@ -97,7 +125,7 @@
 
 <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I am Vikash Tiwari, a passionate web developer with expertise in developing dynamic, responsive, and scalable web applications. I specialize in PHP, MySQL, and frameworks like CodeIgniter, creating seamless user experiences with modern front-end technologies.</p>
+    <p>Welcome! I am Vikash Tiwari, a seasoned Web Developer with a passion for crafting high-quality, user-friendly websites and applications. With years of expertise in backend and frontend technologies, I specialize in delivering scalable solutions tailored to client needs. My commitment to continuous learning ensures I stay ahead in this dynamic field.</p>
 </section>
 
 <section id="skills">
@@ -107,10 +135,11 @@
             <li>PHP</li>
             <li>MySQL</li>
             <li>CodeIgniter</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
             <li>JavaScript</li>
             <li>jQuery</li>
+            <li>Bootstrap</li>
             <li>Mobile App Development</li>
         </ul>
     </div>
@@ -118,15 +147,17 @@
 
 <section id="contact">
     <h2>Contact</h2>
-    <p>If you'd like to work with me or have any queries, feel free to reach out!</p>
+    <p>I am always excited to collaborate on new projects or discuss innovative ideas. Feel free to reach out to me:</p>
     <div class="contact">
-        <p><strong>Phone:</strong> <a href="tel:+917550690731">7550690731</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+917550690731">+91 7550690731</a></p>
         <p><strong>Email:</strong> <a href="mailto:vikash@example.com">vikash@example.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/vikashtiwari" target="_blank">linkedin.com/in/vikashtiwari</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/vikashtiwari" target="_blank">github.com/vikashtiwari</a></p>
     </div>
 </section>
 
 <footer>
-    <p>&copy; 2025 Vikash Tiwari. All Rights Reserved.</p>
+    <p>&copy; 2025 Vikash Tiwari. All Rights Reserved. | Designed with care.</p>
 </footer>
 
 </body>
